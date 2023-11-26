@@ -18,8 +18,13 @@ namespace AcademyInfo.Domain.Models
                 if (CheckGroupNo(value))
                 {
                     _groupno = value;
+                    Console.WriteLine("SUCSES");
                 }
-                Console.WriteLine("Qrup nomresi duzgun deyil");
+                else
+                {
+                    Console.WriteLine("Qrup nomresi duzgun deyil");
+                }
+                
             }
         }
         private int _studentLimit;
@@ -32,6 +37,10 @@ namespace AcademyInfo.Domain.Models
                 {
                     _studentLimit = value;
                     Array.Resize(ref Students, _studentLimit);
+                }
+                else
+                {
+                    Console.WriteLine("limit 5 den kicik 18 den boyuk ola bilmez");
                 }
             }
         }
@@ -61,7 +70,7 @@ namespace AcademyInfo.Domain.Models
         }
         public Student GetStudent(int num)
         {
-            return Students[num];
+            return Students[num-1];
         }
         public Student[] GetAllStudents()
         {

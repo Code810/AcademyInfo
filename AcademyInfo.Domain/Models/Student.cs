@@ -8,19 +8,17 @@ namespace AcademyInfo.Domain.Models
 {
     public class Student
     {
-        private int _id;
-        public int Id 
-        {
-            get {  return _id; }
-            
-        }
+        private static int _id;
+        public int Id;
         public string FullName { get; set; }
         public int Point { get; set; }
         public Student(string fullname, int point)
         {
             FullName = fullname;
             Point = point;
+           
             _id++;
+            Id = _id;
         }
 
         public void StudentInfo()

@@ -1,8 +1,25 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using AcademyInfo.Domain.Models;
 
-Console.WriteLine("Hello, World!");
-Student student1 = new("Nadir",14);
-Student[] students = new Student[18];
-students[5] = student1;
-Console.WriteLine(students[5].Point); 
+Student student1 = new("Nadir Shirinbayli",55);
+student1.StudentInfo();
+Student student2 = new("Eli Eliyev", 44);
+student2.StudentInfo();
+Student student3 = new("Memmed Memmedli", 66);
+student3.StudentInfo();
+Student student4 = new("Memmed Memmedli", 66);
+Student student5 = new("Memmed Memmedli", 77);
+Student student6 = new("Memmed Memmedli", 88);
+
+
+Group group1 = new("PB518",5);
+
+group1.AddStudenArr(student1);
+group1.AddStudenArr(student2);
+group1.AddStudenArr(student3);
+group1.AddStudenArr(student4);
+group1.AddStudenArr(student5);
+group1.AddStudenArr(student6);
+
+group1.GetStudent(5).StudentInfo();
+
