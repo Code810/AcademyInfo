@@ -1,0 +1,11 @@
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\bin\Debug\net6.0\AcademyInfo.Domain.deps.json
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\bin\Debug\net6.0\AcademyInfo.Domain.dll
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\bin\Debug\net6.0\AcademyInfo.Domain.pdb
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\obj\Debug\net6.0\AcademyInfo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\obj\Debug\net6.0\AcademyInfo.Domain.AssemblyInfoInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\obj\Debug\net6.0\AcademyInfo.Domain.AssemblyInfo.cs
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\obj\Debug\net6.0\AcademyInfo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\obj\Debug\net6.0\AcademyInfo.Domain.dll
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\obj\Debug\net6.0\refint\AcademyInfo.Domain.dll
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\obj\Debug\net6.0\AcademyInfo.Domain.pdb
+C:\Users\seidb\OneDrive\Masaüstü\AcademyInfo\AcademyInfo\AcademyInfo.Domain\obj\Debug\net6.0\ref\AcademyInfo.Domain.dll

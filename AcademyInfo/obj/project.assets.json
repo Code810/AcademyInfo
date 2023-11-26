@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "AcademyInfo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AcademyInfo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AcademyInfo.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AcademyInfo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AcademyInfo.Domain/AcademyInfo.Domain.csproj",
+      "msbuildProject": "../AcademyInfo.Domain/AcademyInfo.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "AcademyInfo.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\seidb\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AcademyInfo\\AcademyInfo\\AcademyInfo.Domain\\AcademyInfo.Domain.csproj": {
+              "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AcademyInfo\\AcademyInfo\\AcademyInfo.Domain\\AcademyInfo.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

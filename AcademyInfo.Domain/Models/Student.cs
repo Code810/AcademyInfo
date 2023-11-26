@@ -23,5 +23,10 @@ namespace AcademyInfo.Domain.Models
             _id++;
         }
 
+        public void StudentInfo()
+
+        {
+            Console.WriteLine($"Id: {Id} Fullname: {FullName} Point:{Point} ");
+        }
     }
 }
